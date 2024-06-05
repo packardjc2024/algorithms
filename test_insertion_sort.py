@@ -80,7 +80,6 @@ class TestInsertionSortMultiple:
     answer = [i for i in range(1, 101)]
     list_asc = answer.copy()
     list_desc = sorted(answer, reverse=True)
-    # random_list = random.sample(answer, len(answer))
     random_list = answer.copy()
     random.shuffle(random_list)
 
