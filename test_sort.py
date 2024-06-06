@@ -1,5 +1,5 @@
 """
-This module uses pytest to test my version of the insertion sort algorithm.
+This module uses pytest to test my versions of sorting algorithms.
 It uses random to create test lists and then demonstrates the different types
 of tests that can be run using pytest. It has three different classes to test
 cases where the list is empty, the list contains only one element, and the list
@@ -36,7 +36,6 @@ random_list = [i for i in range(1, 101)]
 random.shuffle(random_list)
 
 multiple_answer = [i for i in range(1, 101)]
-
 
 
 @pytest.mark.parametrize('func_name', algorithms)
